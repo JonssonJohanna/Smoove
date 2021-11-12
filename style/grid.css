@@ -1,6 +1,6 @@
 .presentation {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: repeat(3, [col-start]);
   grid-template-rows: 100vh 100vh 100vh 100vh 100vh;
   /* grid-auto-flow: row; */
 }
