@@ -18,7 +18,7 @@ nav {
   color: black;
 }
 
-li {
+.meny li {
   display: inline;
   padding: 0 12px;
 }
@@ -33,4 +33,10 @@ footer {
   width: 100%;
   padding: 20px;
   background-color: rgb(126, 126, 153);
+}
+
+.footer li {
+  display: block;
+  align-items: row;
+  padding: 0 12px;
 }
