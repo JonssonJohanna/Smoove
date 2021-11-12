@@ -1,0 +1,14 @@
+nav {
+  margin: 0;
+}
+
+.meny ul {
+  list-style-type: none;
+  align-items: center;
+  color: tomato;
+}
+
+li {
+  display: inline;
+  padding: 0 12px;
+}
