@@ -12,12 +12,13 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   background-color: rgb(126, 126, 153);
+  text-align: right;
 }
 
 .footer li {
   display: block;
   align-items: row;
-  padding: 0 12px;
+  padding: 5px 12px;
 }
