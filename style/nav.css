@@ -1,20 +1,8 @@
 nav {
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
-
-/* .meny ul {
-    list-style-type: none;
-    align-items: center;
-    color: black;
-  }
-  
-  .meny li {
-    display: inline;
-    padding: 0 12px;
-  } */
-
-/* main {
-    /* min-height: vh; */
 
 li {
   list-style: none;
@@ -23,7 +11,7 @@ li {
 a {
   text-decoration: none;
 }
-
+/* The nav bar on the top off the page */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -31,10 +19,7 @@ a {
   padding: 1rem 1.5rem;
 }
 
-.hamburger {
-  display: none;
-}
-
+/* the line in the hamburger*/
 .bar {
   display: block;
   width: 25px;
@@ -44,11 +29,21 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: #215731;
 }
-
+/* the slide-box with all the nav links */
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  right: -100%;
+  top: 3rem;
+  flex-direction: column;
+  background-color: rgb(233, 156, 203);
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: 1s;
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 }
 
 .nav-item {
@@ -56,6 +51,7 @@ a {
   text-transform: uppercase;
 }
 
+/* The menu linkitems */
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
@@ -71,4 +67,35 @@ a {
   font-weight: bold;
   text-transform: uppercase;
   color: #215731;
+}
+
+@media only screen and (max-width: 2000px) {
+  .nav-logo {
+    font-size: 2rem;
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 }
