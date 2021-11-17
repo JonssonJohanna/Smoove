@@ -1,2 +1,38 @@
 
 .vscode/settings.json
+
+vårt gamla sätt att koda navbar
+ <!-- <nav class="navbar">
+        <div class="navlogo">
+          <ul>
+            <li>About us</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </nav> -->
+
+Länk till media.css
+          <!-- <link rel="stylesheet" href="/style/media.css"/> -->
+
+Style till gamla navbar
+          /* .meny ul {
+    list-style-type: none;
+    align-items: center;
+    color: black;
+  }
+  
+  .meny li {
+    display: inline;
+    padding: 0 12px;
+  } */
+
+/* main {
+    /* min-height: vh; */
+
+Style för att få texten vertikalt
+ /* transform: rotate(-90deg);
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  left: 5px;
+  top: 250px; */    
