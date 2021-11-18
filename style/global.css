@@ -13,12 +13,19 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 10px;
-  background-color: rgb(126, 126, 153);
-  text-align: right;
+  background-color: #141414;
+  border-top: 1px solid #c4c4c4;
 }
 
 .footer li {
   display: block;
   align-items: row;
   padding: 5px 12px;
+  color: #c4c4c4;
+  text-align: right;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #c4c4c4;
 }
