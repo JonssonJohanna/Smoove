@@ -2,6 +2,7 @@ nav {
   margin: 0;
   position: relative;
   z-index: 1;
+  border-bottom: 1px solid #c4c4c4;
 }
 
 li {
@@ -11,12 +12,13 @@ li {
 a {
   text-decoration: none;
 }
-/* The nav bar on the top off the page */
+/* The navbar on the top off the page */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  background-color: #141414;
 }
 
 /* the line in the hamburger*/
@@ -27,7 +29,7 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #215731;
+  background-color: #c4c4c4;
 }
 /* the slide-box with all the nav links */
 .nav-menu {
@@ -38,16 +40,17 @@ a {
   right: -100%;
   top: 3rem;
   flex-direction: column;
-  background-color: rgb(233, 156, 203);
-  width: 100%;
+  background-color: #141414;
+  width: 50%;
   border-radius: 10px;
   text-align: center;
   transition: 1s;
-  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05); */
 }
 
 .nav-item {
   margin-left: 5rem;
+  margin: 1.5rem 0;
   text-transform: uppercase;
 }
 
@@ -55,12 +58,12 @@ a {
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
-  color: #215731;
+  color: #c4c4c4;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
   color: #215731;
-}
+} */
 
 .nav-logo {
   font-size: 3.5rem;
@@ -76,10 +79,6 @@ a {
 
   .nav-menu.active {
     right: 0;
-  }
-
-  .nav-item {
-    margin: 2.5rem 0;
   }
 
   .hamburger {
