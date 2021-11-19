@@ -3,7 +3,8 @@
 }
 
 body {
-  background-color: rgb(223, 211, 211);
+  background-image: url(/image/bgImage.png);
+  background-size: cover;
   position: relative;
   margin: 0;
 }
@@ -14,7 +15,6 @@ footer {
   width: 100%;
   padding: 10px;
   background-color: #141414;
-  border-top: 1px solid #c4c4c4;
 }
 
 .footer li {
