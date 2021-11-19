@@ -2,7 +2,7 @@ nav {
   margin: 0;
   position: relative;
   z-index: 1;
-  border-bottom: 1px solid #c4c4c4;
+  /* border-bottom: 1px solid #c4c4c4; */
 }
 
 li {
