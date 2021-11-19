@@ -1,37 +1,11 @@
 @media only screen and (max-width: 760px) {
-  Smartphone main {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  .presentation {
-    flex-basis: 100%;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .vehicles {
-    flex-basis: 100%;
-  }
-  .vision {
-    flex: 100%;
-  }
-  .future {
-    flex: 100%;
-  }
-}
-
-@media only screen and (min-width: 760px) and (max-width: 1023px) {
-  Tablet main {
-    flex-wrap: nowrap;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
-  Desktop main {
-    flex-wrap: nowrap;
-  }
   .presentation {
     display: flex;
     height: 85vh;
+    flex-flow: row;
   }
 
   .vehicles {
@@ -51,7 +25,7 @@
 
   .vehicles h2 {
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -83,6 +57,7 @@
   .container {
     display: flex;
     height: 50vh;
+    flex-flow: row;
   }
   .itemOne {
     width: 100vw;
