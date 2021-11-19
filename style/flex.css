@@ -1,10 +1,11 @@
 .presentation {
   display: flex;
+  flex-wrap: wrap;
   height: 85vh;
 }
 
 .vehicles {
-  width: 33vw;
+  width: 100vw;
   height: 100%;
   position: relative;
   text-align: center;
@@ -17,7 +18,6 @@
   display: block;
   object-fit: cover;
 }
-
 .vehicles h2 {
   position: absolute;
   top: 50%;
@@ -25,21 +25,21 @@
   transform: translate(-50%, -50%);
   color: white;
 }
-
 .vision {
-  width: 33vw;
+  width: 100vw;
   height: 100%;
   background-color: #6e9793;
 }
 
 .future {
-  width: 33vw;
+  width: 100vw;
   height: 100%;
   background-color: #b0c1c0;
 }
 
 .merch {
   display: flex;
+  flex-wrap: wrap;
   height: 100vh;
 }
 
@@ -51,6 +51,7 @@
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   height: 50vh;
 }
 .itemOne {
