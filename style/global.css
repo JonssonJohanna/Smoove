@@ -8,12 +8,6 @@ body {
   margin: 0;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-}
-
 footer {
   position: relative;
   bottom: 0;
