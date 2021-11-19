@@ -1,4 +1,4 @@
-.presentation {
+/* .presentation {
   display: flex;
   flex-wrap: wrap;
   height: 85vh;
@@ -51,7 +51,6 @@
 
 .container {
   display: flex;
-  flex-wrap: wrap;
   height: 50vh;
 }
 .itemOne {
@@ -68,4 +67,4 @@
   width: 100vw;
   height: 100%;
   background-color: lightcoral;
-}
+} */
