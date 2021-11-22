@@ -1,6 +1,8 @@
 .presentation {
   display: flex;
   flex-flow: column;
+  border-bottom: #c4c4c4 0.5px solid;
+  border-top: #c4c4c4 0.5px solid;
 }
 
 .vehicles {
@@ -20,8 +22,8 @@
 .vision {
   width: 100vw;
   height: 95vh;
-  border-left: white 2px solid;
-  border-right: white 2px solid;
+  border-left: #c4c4c4 0.5px solid;
+  border-right: #c4c4c4 0.5px solid;
 }
 
 .vision img {
