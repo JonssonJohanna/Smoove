@@ -23,6 +23,7 @@ button {
   height: 3rem;
   width: 10rem;
   text-transform: uppercase;
+  font-family: Netron;
 }
 
 footer {
@@ -40,9 +41,11 @@ footer {
   padding: 5px 12px;
   color: #c4c4c4;
   text-align: right;
+  font-family: Netron;
 }
 
 .footer p {
   font-size: 14px;
   color: #c4c4c4;
+  font-family: Netron;
 }
