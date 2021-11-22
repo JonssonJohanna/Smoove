@@ -83,6 +83,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: Netron;
   }
 
   .future {
@@ -120,11 +121,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: Netron;
   }
 
   .merch {
     display: flex;
-    height: 100vh;
+    height: 90vh;
   }
 
   .merchItem {
