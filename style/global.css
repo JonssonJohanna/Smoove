@@ -18,9 +18,9 @@ body {
 }
 
 button {
-  background-color: black;
+  background-color: #141414;
   color: white;
-  border: black solid;
+  border: #141414 solid;
   height: 3rem;
   width: 10rem;
   text-transform: uppercase;
@@ -33,7 +33,7 @@ footer {
   width: 100%;
   padding: 10px;
   background-color: #141414;
-  border-top: white 2px solid;
+  border-top: #c4c4c4 0.5px solid;
 }
 
 .footer li {
