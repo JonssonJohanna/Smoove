@@ -10,10 +10,10 @@ body {
 }
 
 .mainButton {
-  margin-left: 46%;
-  margin-right: 20%;
   position: fixed;
-  padding-bottom: 20px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 button {
@@ -22,6 +22,7 @@ button {
   border: black solid;
   height: 3rem;
   width: 10rem;
+  text-transform: uppercase;
 }
 
 footer {
