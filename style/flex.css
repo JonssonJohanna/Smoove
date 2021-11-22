@@ -7,7 +7,6 @@
   width: 100vw;
   height: 95vh;
   text-align: center;
-  border-color: green;
 }
 
 .vehicles img {
@@ -21,6 +20,8 @@
 .vision {
   width: 100vw;
   height: 95vh;
+  border-left: white 2px solid;
+  border-right: white 2px solid;
 }
 
 .vision img {
