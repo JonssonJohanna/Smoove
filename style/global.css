@@ -15,6 +15,7 @@ footer {
   width: 100%;
   padding: 10px;
   background-color: #141414;
+  border-top: white 2px solid;
 }
 
 .footer li {
