@@ -47,6 +47,15 @@
     color: white;
     font-family: Netron;
   }
+  .vehicles h4 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Netron;
+    font-size: 1rem;
+  }
 
   .vision {
     width: 33vw;
@@ -84,6 +93,15 @@
     transform: translate(-50%, -50%);
     color: white;
     font-family: Netron;
+  }
+  .vision h4 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Netron;
+    font-size: 1rem;
   }
 
   .future {
@@ -123,6 +141,15 @@
     color: white;
     font-family: Netron;
   }
+  .future h4 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Netron;
+    font-size: 1rem;
+  }
 
   .merch {
     display: flex;
@@ -147,6 +174,23 @@
   }
   .merchItem:hover .imgHover {
     display: block;
+  }
+  .merchItem h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Netron;
+  }
+  .merchItem h4 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Netron;
+    font-size: 1rem;
   }
 
   .container {
