@@ -49,6 +49,7 @@
 
 .merch {
   display: flex;
+  border-bottom: #c4c4c4 0.5px solid;
 }
 
 .merchItem {
@@ -70,12 +71,15 @@
 .itemOne {
   width: 100vw;
   height: 50vh;
+  border-right: #c4c4c4 0.5px solid;
 }
 .itemTwo {
   width: 100vw;
   height: 50vh;
+  border-right: #c4c4c4 0.5px solid;
 }
 .itemThree {
   width: 100vw;
   height: 50vh;
+  border-right: #c4c4c4 0.5px solid;
 }
