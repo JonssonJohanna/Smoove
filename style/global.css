@@ -3,10 +3,25 @@
 }
 
 body {
-  background-image: url(/image/bgImage.png);
+  background-image: url(/image/Background\ smoove\ x1.png);
   background-size: cover;
   position: relative;
   margin: 0;
+}
+
+.mainButton {
+  margin-left: 46%;
+  margin-right: 20%;
+  position: fixed;
+  padding-bottom: 20px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: black solid;
+  height: 3rem;
+  width: 10rem;
 }
 
 footer {
