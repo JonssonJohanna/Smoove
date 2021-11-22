@@ -53,11 +53,13 @@ a {
   text-transform: uppercase;
 }
 
-/* The menu linkitems */
+/* The menu linkitems 
+Change name to p tag instead and not link*/
 .nav-link {
   font-size: 1rem;
   font-weight: 400;
   color: #c4c4c4;
+  font-family: Netron;
 }
 
 .nav-logo {
