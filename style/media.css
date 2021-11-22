@@ -16,14 +16,14 @@
     /* flex-basis: 33vw;
     flex-grow: 1; */
   }
-
-  .vehicles .imgMain {
+  /* imgMain can be deleted */
+  /* .vehicles .imgMain {
     height: 100%;
     max-height: 100%;
     width: 100%;
     display: block;
     object-fit: cover;
-  }
+  } */
   .vehicles .imgHover {
     display: none;
     position: absolute;
@@ -55,13 +55,13 @@
     /* flex-basis: 33vh;
     flex-grow: 1; */
   }
-  .vision .imgMain {
+  /* .vision .imgMain {
     height: 100%;
     max-height: 100%;
     width: 100%;
     display: block;
     object-fit: cover;
-  }
+  } */
   .vision .imgHover {
     display: none;
     position: absolute;
@@ -85,13 +85,13 @@
     /* flex-basis: 33vh;
     flex-grow: 1; */
   }
-  .future .imgMain {
+  /* .future .imgMain {
     height: 100%;
     max-height: 100%;
     width: 100%;
     display: block;
     object-fit: cover;
-  }
+  } */
   .future .imgHover {
     display: none;
     position: absolute;
@@ -115,6 +115,21 @@
   .merchItem {
     width: 100vw;
     height: 100%;
+    position: relative;
+  }
+  .merchItem .imgHover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .merchItem:hover .imgHover {
+    display: block;
   }
 
   .container {
