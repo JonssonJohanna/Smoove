@@ -2,7 +2,6 @@ nav {
   margin: 0;
   position: relative;
   z-index: 100;
-  /* border-bottom: 1px solid #c4c4c4; */
 }
 
 li {
@@ -12,29 +11,32 @@ li {
 a {
   text-decoration: none;
 }
-h1.logo {
-  font-family: Netron;
-  font-size: "30px";
-  color: white;
+/*The logo in the navbar*/
+.logo {
+  font-family: var(--font-family-main);
+  font-size: var(--h1);
+  color: var(--color-text);
+  margin: 0.4rem;
+  text-transform: uppercase;
 }
 /* The navbar on the top off the page */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
-  background-color: #141414;
+  padding: 1rem;
+  background-color: var(--color-background);
 }
 
 /* the line in the hamburger */
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 40px;
+  height: 5px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #c4c4c4;
+  background-color: var(--color-text);
 }
 /* the slide-box with all the nav links */
 .nav-menu {
@@ -45,26 +47,26 @@ h1.logo {
   right: -100%;
   top: 1.8rem;
   flex-direction: column;
-  background-color: #141414;
+  background-color: var(--color-background);
   width: 50%;
   /* border-radius: 10px; */
   text-align: center;
   transition: 1s;
 }
 
+/*The style for the links in the navbar */
 .nav-item {
   margin-left: 5rem;
-  margin: 1.4rem;
+  margin: 1rem;
   text-transform: uppercase;
 }
 
-/* The menu linkitems 
-Change name to p tag instead and not link*/
+/* The menu linkitems */
 .nav-link {
   font-size: 1rem;
   font-weight: 400;
-  color: #c4c4c4;
-  font-family: Netron;
+  color: var(--color-text);
+  font-family: var(--font-family-main);
 }
 
 @media only screen and (max-width: 2000px) {
