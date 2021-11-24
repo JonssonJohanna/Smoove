@@ -46,17 +46,20 @@
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h2);
+    text-transform: uppercase;
   }
-  .vehicles h4 {
+  .vehicles h3 {
     position: absolute;
-    top: 15%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
-    font-size: 1rem;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h3);
+    text-transform: uppercase;
   }
 
   .vision {
@@ -64,8 +67,8 @@
     height: 100%;
     position: relative;
     text-align: center;
-    border-left: #c4c4c4 0.5px solid;
-    border-right: #c4c4c4 0.5px solid;
+    border-left: var(--color-border-line) 0.5px solid;
+    border-right: var(--color-border-line) 0.5px solid;
     /* flex-basis: 33vh;
     flex-grow: 1; */
   }
@@ -96,17 +99,20 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h2);
+    text-transform: uppercase;
   }
-  .vision h4 {
+  .vision h3 {
     position: absolute;
-    top: 60%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
-    font-size: 1rem;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h3);
+    text-transform: uppercase;
   }
 
   .future {
@@ -144,17 +150,20 @@
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h2);
+    text-transform: uppercase;
   }
-  .future h4 {
+  .future h3 {
     position: absolute;
-    top: 15%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
-    font-size: 1rem;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h3);
+    text-transform: uppercase;
   }
 
   .merch {
@@ -187,17 +196,20 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h2);
+    text-transform: uppercase;
   }
-  .merchItem h4 {
+  .merchItem h3 {
     position: absolute;
-    top: 35%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
-    font-size: 1rem;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h3);
+    text-transform: uppercase;
   }
 
   .container {
@@ -215,42 +227,48 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h2);
+    text-transform: uppercase;
   }
-  .itemOne h4 {
+  .itemOne h3 {
     position: absolute;
-    top: 39%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
-    font-size: 1rem;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h3);
+    text-transform: uppercase;
   }
 
   .itemTwo {
     width: 100vw;
     height: 100%;
     position: relative;
-    border-left: #c4c4c4 0.5px solid;
-    border-right: #c4c4c4 0.5px solid;
+    border-left: var(--color-border-line) 0.5px solid;
+    border-right: var(--color-border-line) 0.5px solid;
   }
   .itemTwo h2 {
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h2);
+    text-transform: uppercase;
   }
-  .itemTwo h4 {
+  .itemTwo h3 {
     position: absolute;
-    top: 39%;
-    left: 50%;
+    top: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
-    font-size: 1rem;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h3);
+    text-transform: uppercase;
   }
   .itemThree {
     width: 100vw;
@@ -262,16 +280,19 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h2);
+    text-transform: uppercase;
   }
-  .itemThree h4 {
+  .itemThree h3 {
     position: absolute;
-    top: 39%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-family: Netron;
-    font-size: 1rem;
+    color: var(--color-text);
+    font-family: var(--font-family-main);
+    font-size: var(--h3);
+    text-transform: uppercase;
   }
 }
