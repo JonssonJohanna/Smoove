@@ -1,15 +1,14 @@
 .presentation {
   display: flex;
   flex-flow: column;
-
-  border-top: #c4c4c4 0.5px solid;
+  border-top: var(--color-border-line) 0.5px solid;
 }
 
 .vehicles {
   width: 100vw;
   height: 95vh;
   text-align: center;
-  border-bottom: #c4c4c4 0.5px solid;
+  border-bottom: var(--color-border-line) 0.5px solid;
 }
 
 .vehicles img {
@@ -23,7 +22,7 @@
 .vision {
   width: 100vw;
   height: 95vh;
-  border-bottom: #c4c4c4 0.5px solid;
+  border-bottom: var(--color-border-line) 0.5px solid;
 }
 
 .vision img {
@@ -37,7 +36,7 @@
 .future {
   width: 100vw;
   height: 95vh;
-  border-bottom: #c4c4c4 0.5px solid;
+  border-bottom: var(--color-border-line) 0.5px solid;
 }
 
 .future img {
@@ -50,7 +49,7 @@
 
 .merch {
   display: flex;
-  border-bottom: #c4c4c4 0.5px solid;
+  border-bottom: var(--color-border-line) 0.5px solid;
 }
 
 .merchItem {
@@ -72,15 +71,15 @@
 .itemOne {
   width: 100vw;
   height: 50vh;
-  border-bottom: #c4c4c4 0.5px solid;
+  border-bottom: var(--color-border-line) 0.5px solid;
 }
 .itemTwo {
   width: 100vw;
   height: 50vh;
-  border-bottom: #c4c4c4 0.5px solid;
+  border-bottom: var(--color-border-line) 0.5px solid;
 }
 .itemThree {
   width: 100vw;
   height: 50vh;
-  border-bottom: #c4c4c4 0.5px solid;
+  border-bottom: var(--color-border-line) 0.5px solid;
 }
