@@ -10,14 +10,6 @@ body {
 }
 
 .mainButton {
-  position: fixed;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-}
-
-button {
   background-color: #141414;
   color: white;
   border: #141414 solid;
@@ -25,6 +17,11 @@ button {
   width: 10rem;
   text-transform: uppercase;
   font-family: Netron;
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
 }
 
 footer {
@@ -33,7 +30,7 @@ footer {
   width: 100%;
   padding: 10px;
   background-color: #141414;
-  border-top: #c4c4c4 0.5px solid;
+  z-index: 100;
 }
 
 .footer li {
