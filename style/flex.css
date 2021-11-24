@@ -1,7 +1,7 @@
 .presentation {
   display: flex;
   flex-flow: column;
-  border-bottom: #c4c4c4 0.5px solid;
+
   border-top: #c4c4c4 0.5px solid;
 }
 
@@ -9,6 +9,7 @@
   width: 100vw;
   height: 95vh;
   text-align: center;
+  border-bottom: #c4c4c4 0.5px solid;
 }
 
 .vehicles img {
@@ -22,8 +23,7 @@
 .vision {
   width: 100vw;
   height: 95vh;
-  border-left: #c4c4c4 0.5px solid;
-  border-right: #c4c4c4 0.5px solid;
+  border-bottom: #c4c4c4 0.5px solid;
 }
 
 .vision img {
@@ -37,6 +37,7 @@
 .future {
   width: 100vw;
   height: 95vh;
+  border-bottom: #c4c4c4 0.5px solid;
 }
 
 .future img {
@@ -71,15 +72,15 @@
 .itemOne {
   width: 100vw;
   height: 50vh;
-  border-right: #c4c4c4 0.5px solid;
+  border-bottom: #c4c4c4 0.5px solid;
 }
 .itemTwo {
   width: 100vw;
   height: 50vh;
-  border-right: #c4c4c4 0.5px solid;
+  border-bottom: #c4c4c4 0.5px solid;
 }
 .itemThree {
   width: 100vw;
   height: 50vh;
-  border-right: #c4c4c4 0.5px solid;
+  border-bottom: #c4c4c4 0.5px solid;
 }
