@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="/style/nav.css"/>
     <link rel="stylesheet" href="/style/media.css">
     <link rel="stylesheet" href="/style/typography.css">
-    <link rel="preload" as="image" href="/image/Back_matte_ neon_480px.jpg">
-    <link rel="preload" as="image" href="/image/Front_matte_neon_480px.jpg">
-    <link rel="preload" as="image" href="/image/top_matte_neon_480px.jpg">
+    <link rel="preload" as="image" href="/image/Top-500px.jpg">
+    <link rel="preload" as="image" href="/image/Top-750px.jpg">
+    <link rel="preload" as="image" href="/image/Front-500px.jpg">
+    <link rel="preload" as="image" href="/image/Back-500px.jpg">
     <title>Smoove G5</title>
   </head>
   <body>
@@ -58,19 +59,24 @@
       <section class="presentation">
         <div class="vehicles">
           <!-- <img class="imgMain" src="/image/MaskGroupOne.png"> -->
-          <img class="imgHover" src="/image/Top.jpg">
+          <picture>
+            <source
+            media="(min-width; 1024)"
+            srcset="../image/Top-750px.jpg"/>
+            <img class="imgHover" src="/image/Top-500px.jpg">
+          </picture>
           <h2>Vehicles</h2>
           <h4>Image on hover</h4>
         </div>
         <div class="vision">
           <!-- <img class="imgMain" src="/image/MaskGrouptwo.png"> -->
-          <img class="imgHover" src="/image/Front.jpg">
+          <img class="imgHover" src="/image/Front-500px.jpg">
           <h2>Vision</h2>
           <h4>Image on hover</h4>
         </div>
         <div class="future">
           <!-- <img class="imgMain" src="/image/MaskGroupthree.png"> -->
-          <img class="imgHover" src="/image/Back.jpg">
+          <img class="imgHover" src="/image/Back-500px.jpg">
           <h2>Future</h2>
           <h4>Image on hover</h4>
         </div>
