@@ -9,13 +9,11 @@
   --color-background: #141414;
   --color-text: #c4c4c4;
   --color-border-line: #c4c4c4;
-
-  /* Font family */
-  --font-family-main: Netron;
 }
 
 * {
   box-sizing: border-box;
+  font-family: Netron;
 }
 
 body {
@@ -40,12 +38,10 @@ footer {
   padding: 5px 12px;
   color: var(--color-text);
   text-align: right;
-  font-family: var(--font-family-main);
 }
 
 .footer p {
   font-size: var(--p);
   color: var(--color-text);
-  font-family: var(--font-family-main);
   text-transform: uppercase;
 }
