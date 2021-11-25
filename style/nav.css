@@ -13,7 +13,6 @@ a {
 }
 /*The logo in the navbar*/
 .logo {
-  font-family: var(--font-family-main);
   font-size: var(--h1);
   color: var(--color-text);
   margin: 0.4rem;
@@ -66,28 +65,25 @@ a {
   font-size: 1rem;
   font-weight: 400;
   color: var(--color-text);
-  font-family: var(--font-family-main);
+}
+/*Make the menu come out*/
+.nav-menu.active {
+  right: 0;
 }
 
-@media only screen and (max-width: 2000px) {
-  .nav-menu.active {
-    right: 0;
-  }
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
 
-  .hamburger {
-    display: block;
-    cursor: pointer;
-  }
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
 
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
 
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
 }
