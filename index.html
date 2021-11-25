@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/style/typography.css">
     <link rel="stylesheet" href="/style/button.css">
     <link rel="preload" as="image" href="/image/Top-500px.jpg">
-    <!-- <link rel="preload" as="image" href="/image/Top-750px.jpg"> -->
+    <link rel="preload" as="image" href="/image/Top-750px.jpg">
     <link rel="preload" as="image" href="/image/Front-500px.jpg">
     <link rel="preload" as="image" href="/image/Back-500px.jpg">
     <title>Smoove G5</title>
@@ -41,9 +41,12 @@
             <li class="nav-item">
               <a href="#" class="nav-link">SOCIAL MEDIA</a>
                 </li>
+                <li>
+                  <a href="#" class="nav-link"><img src="image/noun_Globe_4409509.svg" width="15px"></a>
+                </li>
 
                 <li>
-                  <a href="#" class="nav-link">Swe | Eng</a>
+                  <a href="#" class="nav-link">Language</a>
                 </li>
 
               </ul>
@@ -60,12 +63,12 @@
       <section class="presentation">
         <div class="vehicles">
           <!-- <img class="imgMain" src="/image/MaskGroupOne.png"> -->
-          <picture>
+          <!-- <picture>
             <source
             media="(min-width; 1024)"
             srcset="../image/Top-750px.jpg"/>
             <img class="imgHover" src="/image/Top-500px.jpg">
-          </picture>
+          </picture> -->
           <h2>Vehicles</h2>
           <h3>Image on hover</h3>
         </div>
@@ -77,7 +80,8 @@
         </div>
         <div class="future">
           <!-- <img class="imgMain" src="/image/MaskGroupthree.png"> -->
-          <img class="imgHover" src="/image/Back-500px.jpg">
+          <img srcset="/image/Back-500px.jpg 500w, /image/Back-500px.jpg 750w" sizes="(min-width: 1023px) 500px,
+          750px" src="/image/Back-500px.jpg" alt="bike back">
           <h2>Future</h2>
           <h3>Image on hover</h3>
         </div>
