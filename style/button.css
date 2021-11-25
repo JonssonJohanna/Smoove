@@ -1,12 +1,10 @@
 .mainButton {
   background-color: var(--color-background);
   color: var(--color-text);
-  /* border: #141414 solid; */
   height: 4rem;
   width: 13rem;
   font-size: var(--p);
   text-transform: uppercase;
-  font-family: var(--font-family-main);
   position: fixed;
   top: 90%;
   left: 50%;
