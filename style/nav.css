@@ -11,6 +11,10 @@ li {
 a {
   text-decoration: none;
 }
+
+.navLink:hover {
+  color: red;
+}
 /*The logo in the navbar*/
 .logo {
   font-size: var(--h1);
@@ -38,7 +42,7 @@ a {
   background-color: var(--color-text);
 }
 /* the slide-box with all the nav links */
-.nav-menu {
+.navMenu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,21 +59,21 @@ a {
 }
 
 /*The style for the links in the navbar */
-.nav-item {
+.navItem {
   margin: 1rem;
   text-transform: uppercase;
 }
 
 /* The menu linkitems */
-.nav-link {
+.navLink {
   font-size: var(--p);
   color: var(--color-text);
 }
 /*Make the menu come out*/
-.nav-menu.active {
+.navMenu.active {
   right: 0;
 }
-
+/* Style for the lines in the hamburger menu*/
 .hamburger {
   display: block;
   cursor: pointer;
