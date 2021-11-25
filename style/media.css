@@ -130,6 +130,25 @@
     text-transform: uppercase;
   }
 
+  .arrowDown {
+    border: solid var(--color-text);
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 1rem;
+    position: fixed;
+    top: 87%;
+    right: 4%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .arrowDown:hover {
+    border: solid red;
+    border-width: 0 6px 6px 0;
+  }
+
   .merch {
     display: flex;
     height: 90vh;
