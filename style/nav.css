@@ -43,27 +43,26 @@ a {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  padding: 20px;
   right: -100%;
-  top: 1.8rem;
+  top: 3.9rem;
   flex-direction: column;
   background-color: var(--color-background);
-  width: 50%;
-  /* border-radius: 10px; */
+  width: 30%;
+  border-radius: 10px;
   text-align: center;
   transition: 1s;
 }
 
 /*The style for the links in the navbar */
 .nav-item {
-  margin-left: 5rem;
   margin: 1rem;
   text-transform: uppercase;
 }
 
 /* The menu linkitems */
 .nav-link {
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: var(--p);
   color: var(--color-text);
 }
 /*Make the menu come out*/
