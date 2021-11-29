@@ -79,16 +79,16 @@
   top: 1600px;
 }
 
-.merch {
+.studioHero {
   display: flex;
   border-bottom: var(--color-border-line) 0.5px solid;
 }
 
-.merchItem {
+.studioImage {
   width: 100vw;
   height: 100vh;
 }
-.merch img {
+.studioHero img {
   height: 100%;
   max-height: 100%;
   width: 100%;
@@ -96,40 +96,40 @@
   object-fit: cover;
 }
 
-.container {
+.merch {
   display: flex;
   flex-flow: column;
 }
-.itemOne {
+.merchHelmet {
   width: 100vw;
   height: 50vh;
   border-bottom: var(--color-border-line) 0.5px solid;
 }
-.itemOne img {
+.merchHelmet img {
   height: 100%;
   max-height: 100%;
   width: 100%;
   display: block;
   object-fit: cover;
 }
-.itemTwo {
+.merchWatch {
   width: 100vw;
   height: 50vh;
   border-bottom: var(--color-border-line) 0.5px solid;
 }
-.itemTwo img {
+.merchWatch img {
   height: 100%;
   max-height: 100%;
   width: 100%;
   display: block;
   object-fit: cover;
 }
-.itemThree {
+.merchGlasses {
   width: 100vw;
   height: 50vh;
   border-bottom: var(--color-border-line) 0.5px solid;
 }
-.itemThree img {
+.merchGlasses img {
   height: 100%;
   max-height: 100%;
   width: 100%;
