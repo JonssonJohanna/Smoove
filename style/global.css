@@ -51,7 +51,7 @@ footer {
   color: inherit;
 }
 
-.footer li:hover {
+.footer a:hover {
   color: var(--color-links);
   text-shadow: 0 0 7px var(--color-shadow), 0 0 10px var(--color-shadow),
     0 0 21px var(--color-shadow), 0 0 42px var(--color-shadow),
