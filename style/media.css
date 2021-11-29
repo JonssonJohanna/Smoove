@@ -135,21 +135,19 @@
 
   .arrowDown {
     border: solid var(--color-text);
-    border-width: 0 6px 6px 0;
+    border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 1rem;
     position: fixed;
     top: 87%;
     right: 4%;
-    transform: translate(-50%, -50%);
     z-index: 100;
     transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
   }
 
   .arrowDown:hover {
-    border: solid red;
-    border-width: 0 6px 6px 0;
+    border: solid var(--color-links);
+    border-width: 0 3px 3px 0;
   }
 
   .studioHero {
@@ -323,4 +321,49 @@
     font-family: var(--font-text);
     text-transform: uppercase;
   }
+}
+
+.outdoorHero {
+  display: flex;
+  height: 90vh;
+}
+
+.outdoorImage {
+  width: 100vw;
+  height: 100%;
+  position: relative;
+}
+.outdoorImage .imgHover {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.outdoorImage:hover .imgHover {
+  opacity: 1;
+  transition: opacity 0.4s ease-out;
+}
+.outdoorImage h2 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--color-text);
+  font-size: var(--h2);
+  text-transform: uppercase;
+}
+.outdoorImage h3 {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--color-text);
+  font-size: var(--h3);
+  font-family: var(--font-text);
+  text-transform: uppercase;
 }
