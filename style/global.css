@@ -11,6 +11,10 @@
   --color-border-line: #c4c4c4;
   --color-links: #ff4949;
   --color-shadow: #ffffff;
+
+  /* Fonts */
+  --font-main: Netron;
+  --font-text: Poppins-Regular;
 }
 
 * {
