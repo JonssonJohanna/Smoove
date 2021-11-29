@@ -139,7 +139,17 @@
 
 .outdoorHero {
   display: flex;
+  flex-flow: column;
   border-bottom: var(--color-border-line) 0.5px solid;
+}
+.outdoorText {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  padding: 20px;
+  color: var(--color-text);
+  font-size: var(--h2);
+  text-transform: uppercase;
 }
 
 .outdoorImage {
