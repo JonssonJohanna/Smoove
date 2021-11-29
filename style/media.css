@@ -44,6 +44,7 @@
     transform: translate(-50%, -50%);
     color: var(--color-text);
     font-size: var(--h3);
+    font-family: Poppins-Regular;
     text-transform: uppercase;
   }
 
