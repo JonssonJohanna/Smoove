@@ -371,7 +371,6 @@
   .outdoorText {
     width: 33vw;
     height: 100%;
-    position: relative;
     color: var(--color-text);
     font-size: var(--h2);
     text-transform: uppercase;
