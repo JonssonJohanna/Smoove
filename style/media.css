@@ -44,7 +44,7 @@
     transform: translate(-50%, -50%);
     color: var(--color-text);
     font-size: var(--h3);
-    font-family: Poppins-Regular;
+    font-family: var(--font-text);
     text-transform: uppercase;
   }
 
@@ -88,6 +88,7 @@
     transform: translate(-50%, -50%);
     color: var(--color-text);
     font-size: var(--h3);
+    font-family: var(--font-text);
     text-transform: uppercase;
   }
 
@@ -128,6 +129,7 @@
     transform: translate(-50%, -50%);
     color: var(--color-text);
     font-size: var(--h3);
+    font-family: var(--font-text);
     text-transform: uppercase;
   }
 
@@ -150,17 +152,17 @@
     border-width: 0 6px 6px 0;
   }
 
-  .merch {
+  .studioHero {
     display: flex;
     height: 90vh;
   }
 
-  .merchItem {
+  .studioImage {
     width: 100vw;
     height: 100%;
     position: relative;
   }
-  .merchItem .imgHover {
+  .studioImage .imgHover {
     opacity: 0;
     position: absolute;
     top: 0;
@@ -171,11 +173,11 @@
     width: 100%;
     object-fit: cover;
   }
-  .merchItem:hover .imgHover {
+  .studioImage:hover .imgHover {
     opacity: 1;
     transition: opacity 0.4s ease-out;
   }
-  .merchItem h2 {
+  .studioImage h2 {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -184,27 +186,28 @@
     font-size: var(--h2);
     text-transform: uppercase;
   }
-  .merchItem h3 {
+  .studioImage h3 {
     position: absolute;
     top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--color-text);
     font-size: var(--h3);
+    font-family: var(--font-text);
     text-transform: uppercase;
   }
 
-  .container {
+  .merch {
     display: flex;
     height: 50vh;
     flex-flow: row;
   }
-  .itemOne {
+  .merchHelmet {
     width: 100vw;
     height: 100%;
     position: relative;
   }
-  .itemOne .imgHover {
+  .merchHelmet .imgHover {
     opacity: 0;
     position: absolute;
     top: 0;
@@ -215,11 +218,11 @@
     width: 100%;
     object-fit: cover;
   }
-  .itemOne:hover .imgHover {
+  .merchHelmet:hover .imgHover {
     opacity: 1;
     transition: opacity 0.4s ease-out;
   }
-  .itemOne h2 {
+  .merchHelmet h2 {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -228,17 +231,18 @@
     font-size: var(--h2);
     text-transform: uppercase;
   }
-  .itemOne h3 {
+  .merchHelmet h3 {
     position: absolute;
     top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--color-text);
     font-size: var(--h3);
+    font-family: var(--font-text);
     text-transform: uppercase;
   }
 
-  .itemTwo {
+  .merchWatch {
     width: 100vw;
     height: 100%;
     position: relative;
@@ -246,7 +250,7 @@
     border-right: var(--color-border-line) 0.5px solid;
   }
 
-  .itemTwo .imgHover {
+  .merchWatch .imgHover {
     opacity: 0;
     position: absolute;
     top: 0;
@@ -257,11 +261,11 @@
     width: 100%;
     object-fit: cover;
   }
-  .itemTwo:hover .imgHover {
+  .merchWatch:hover .imgHover {
     opacity: 1;
     transition: opacity 0.4s ease-out;
   }
-  .itemTwo h2 {
+  .merchWatch h2 {
     position: absolute;
     top: 30%;
     left: 55%;
@@ -270,21 +274,22 @@
     font-size: var(--h2);
     text-transform: uppercase;
   }
-  .itemTwo h3 {
+  .merchWatch h3 {
     position: absolute;
     top: 50%;
     left: 48%;
     transform: translate(-50%, -50%);
     color: var(--color-text);
     font-size: var(--h3);
+    font-family: var(--font-text);
     text-transform: uppercase;
   }
-  .itemThree {
+  .merchGlasses {
     width: 100vw;
     height: 100%;
     position: relative;
   }
-  .itemThree .imgHover {
+  .merchGlasses .imgHover {
     opacity: 0;
     position: absolute;
     top: 0;
@@ -295,11 +300,11 @@
     width: 100%;
     object-fit: cover;
   }
-  .itemThree:hover .imgHover {
+  .merchGlasses:hover .imgHover {
     opacity: 1;
     transition: opacity 0.4s ease-out;
   }
-  .itemThree h2 {
+  .merchGlasses h2 {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -308,13 +313,14 @@
     font-size: var(--h2);
     text-transform: uppercase;
   }
-  .itemThree h3 {
+  .merchGlasses h3 {
     position: absolute;
     top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--color-text);
     font-size: var(--h3);
+    font-family: var(--font-text);
     text-transform: uppercase;
   }
 }
