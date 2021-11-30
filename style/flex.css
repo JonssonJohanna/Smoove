@@ -28,8 +28,8 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 20%;
+  left: 5%;
 }
 
 .vision {
@@ -56,7 +56,7 @@
   letter-spacing: 0.1em;
   position: absolute;
   top: 40%;
-  transform: translateX(1100%);
+  right: 10%;
 }
 .future {
   width: 100vw;
@@ -81,8 +81,8 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 20%;
+  left: 5%;
 }
 
 .studioHero {
