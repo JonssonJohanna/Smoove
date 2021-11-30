@@ -36,6 +36,7 @@
     color: var(--color-text);
     font-size: var(--h2);
     text-transform: uppercase;
+    writing-mode: horizontal-tb;
   }
   .vehicles h3 {
     position: absolute;
@@ -80,6 +81,7 @@
     color: var(--color-text);
     font-size: var(--h2);
     text-transform: uppercase;
+    writing-mode: horizontal-tb;
   }
   .vision h3 {
     position: absolute;
@@ -121,6 +123,7 @@
     color: var(--color-text);
     font-size: var(--h2);
     text-transform: uppercase;
+    writing-mode: horizontal-tb;
   }
   .future h3 {
     position: absolute;
