@@ -9,6 +9,7 @@
   height: 95vh;
   text-align: center;
   border-bottom: var(--color-border-line) 0.5px solid;
+  position: relative;
 }
 
 .vehicles img {
@@ -20,20 +21,22 @@
 }
 
 .vehicles h2 {
-  transform: rotate(-90deg);
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
   font-size: var(--h2);
   color: var(--color-text);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   position: absolute;
-  left: -60px;
-  top: 200px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .vision {
   width: 100vw;
   height: 95vh;
   border-bottom: var(--color-border-line) 0.5px solid;
+  position: relative;
 }
 
 .vision img {
@@ -45,19 +48,21 @@
 }
 
 .vision h2 {
-  transform: rotate(90deg);
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
   font-size: var(--h2);
   color: var(--color-text);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   position: absolute;
-  right: -30px;
-  top: 1000px;
+  top: 40%;
+  transform: translateX(1100%);
 }
 .future {
   width: 100vw;
   height: 95vh;
   border-bottom: var(--color-border-line) 0.5px solid;
+  position: relative;
 }
 
 .future img {
@@ -69,14 +74,15 @@
 }
 
 .future h2 {
-  transform: rotate(-90deg);
+  writing-mode: vertical-lr;
+  text-orientation: sideways-right;
   font-size: var(--h2);
   color: var(--color-text);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   position: absolute;
-  left: -40px;
-  top: 1600px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .studioHero {
@@ -160,7 +166,7 @@
   height: 100vh;
 }
 .outdoorImage h2,
-h3 {
+.outdoorImage h3 {
   display: none;
 }
 .outdoorHero img {
