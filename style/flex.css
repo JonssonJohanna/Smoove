@@ -157,13 +157,15 @@
 }
 
 .outdoorText h2 {
+  padding: 10px;
   color: var(--color-text);
   font-size: var(--h2);
   font-family: var(--font-main);
   text-transform: uppercase;
-  align-self: center;
+  align-self: left;
 }
 .outdoorText h3 {
+  padding: 10px;
   color: var(--color-text);
   font-size: var(--h2);
   font-family: var(--font-text);
