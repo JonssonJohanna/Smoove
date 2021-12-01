@@ -150,6 +150,7 @@
 }
 .outdoorText {
   display: flex;
+  flex-flow: column;
   width: 100vw;
   height: 100vh;
   padding: 30px;
@@ -158,9 +159,19 @@
 .outdoorText h2 {
   color: var(--color-text);
   font-size: var(--h2);
+  font-family: var(--font-main);
   text-transform: uppercase;
   align-self: center;
 }
+.outdoorText h3 {
+  color: var(--color-text);
+  font-size: var(--h2);
+  font-family: var(--font-text);
+  padding: 10px;
+  text-transform: uppercase;
+  align-self: center;
+}
+
 .outdoorImage {
   width: 100vw;
   height: 100vh;
