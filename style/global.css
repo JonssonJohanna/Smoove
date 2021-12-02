@@ -29,13 +29,22 @@ body {
   margin: 0;
 }
 
-footer {
+.footer {
+  display: flex;
+  justify-content: space-between;
   position: relative;
   bottom: 0;
   width: 100%;
   padding: 10px;
   background-color: var(--color-background);
   z-index: 100;
+}
+
+.footer h2 {
+  font-size: var(--h2);
+  color: var(--color-text);
+  text-transform: uppercase;
+  align-self: center;
 }
 
 .footer li {
@@ -57,11 +66,4 @@ footer {
     0 0 21px var(--color-shadow), 0 0 42px var(--color-shadow),
     0 0 82px var(--color-shadow), 0 0 92px var(--color-shadow),
     0 0 102px var(--color-shadow), 0 0 151px var(--color-shadow);
-}
-
-.footer h2 {
-  font-size: var(--h2);
-  color: var(--color-text);
-  text-transform: uppercase;
-  align-self: left;
 }
