@@ -4,7 +4,7 @@
   border-top: var(--color-border-line) 0.5px solid;
 }
 
-.vehicles {
+.top {
   width: 100vw;
   height: 95vh;
   text-align: center;
@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.vehicles img {
+.top img {
   height: 100%;
   max-height: 100%;
   width: 100%;
@@ -20,7 +20,7 @@
   object-fit: cover;
 }
 
-.vehicles h2 {
+.top h2 {
   writing-mode: vertical-rl;
   text-orientation: sideways-right;
   font-size: var(--h2);
@@ -32,14 +32,14 @@
   left: 5%;
 }
 
-.vision {
+.front {
   width: 100vw;
   height: 95vh;
   border-bottom: var(--color-border-line) 0.5px solid;
   position: relative;
 }
 
-.vision img {
+.front img {
   height: 100%;
   max-height: 100%;
   width: 100%;
@@ -47,7 +47,7 @@
   object-fit: cover;
 }
 
-.vision h2 {
+.front h2 {
   writing-mode: vertical-rl;
   text-orientation: sideways-right;
   font-size: var(--h2);
@@ -58,14 +58,14 @@
   top: 40%;
   right: 5%;
 }
-.future {
+.back {
   width: 100vw;
   height: 95vh;
   border-bottom: var(--color-border-line) 0.5px solid;
   position: relative;
 }
 
-.future img {
+.back img {
   height: 100%;
   max-height: 100%;
   width: 100%;
@@ -73,7 +73,7 @@
   object-fit: cover;
 }
 
-.future h2 {
+.back h2 {
   writing-mode: vertical-lr;
   text-orientation: sideways-right;
   font-size: var(--h2);
